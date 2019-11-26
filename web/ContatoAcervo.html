@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+    <head>
+        <style>
+            body.container {
+                background-color: #6c757d;
+
+            }
+
+            nav ul {
+                display: flex;
+                width: 100%;
+            }
+
+            li {
+                flex-grow: 1;
+            }
+            p{
+                color: #b3b7bb;
+                line-height: 25px;
+                margin: 10px;
+            }
+            p1{
+
+                color: #b3b7bb;
+                line-height: 25px;
+                margin: 50px;
+
+            }
+
+            #texto{
+                margin:5px;
+                margin-right: 1000px;
+            }
+
+            h2,h4,h3{
+                color:#b3b7bb;
+            }
+            h4{
+                font-size: 8px;
+            }
+            .footer-top{
+                background: #062c33;
+                padding: 30px 0;
+            }
+            .segmente-one h2:before{
+                content: '|';
+                color:#117a8b;
+                padding-right: 10px;
+            }
+            .segmente-two h4:before{
+                content: '|';
+                color:#117a8b;
+                padding-right: 10px;
+            }
+            .segmente-three h4:before{
+                content: '|';
+                color:#117a8b;
+                padding-right: 10px;
+            }
+            .segmente-four h4:before{
+                content: '|';
+                color:#117a8b;
+                padding-right: 10px;
+            }
+            .segmente-two ul{
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            .segmente-two ul li{
+                border-bottom: 1px solid rgba(255,255,255,0.3);
+                line-height: 40px;
+            }
+            .segmente-two ul li a{
+                color: #b3b7bb;
+                text-decoration: none;
+            }
+
+            /*            css jonas*/
+
+            body.container {
+                background-color: #6c757d;
+
+            }
+
+            nav ul {
+                display: flex;
+                width: 100%;
+            }
+
+            li {
+                flex-grow: 1;
+            }
+
+
+
+
+        </style>   
+
+        <title>Contato</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="shortcut icon" type="image/png" href="favicon.png">
+        <link rel="stylesheet" type="text/css" href="">
+
+        <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style2.css">
+        <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+        <script src="js/jquery-3.3.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="css/bootstrap.min.css"></script>
+        <script src="./js/jquery-3.3.1.min.js"></script>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="./js/blocs.min.js"></script>
+        <script src="./js/jqBootstrapValidation.js"></script>
+        <script src="./js/formHandler.js"></script>
+        <script src="./js/lazysizes.min.js" defer></script>
+
+
+    <body class="container" >
+
+
+        <header class=""style="background-color: #b3b7bb ">
+
+
+            <hgroup>
+
+                <div class="container"  >
+                    <div class="body-index">
+                        <figure>
+                            <img src="acervo.png" class="img-fluid" alt="Imagem responsiva" align="left">
+                        </figure>
+                    </div>
+
+                    <div class="jumbotron jumbotron-fluid" >
+                        <h1 class="text-center">Acervo IFMT </h1>
+
+                    </div>
+                </div>
+
+                <nav align="center " class="navbar navbar-expand-sm bg-light" >
+
+                    <ul class="navbar-nav" style="background-color: #b3b7bb">
+                        <li class="nav-item"  style="background-color: #b3b7bb">
+                            <a class="nav-link btn btn-primary" href="index.html"  style="background-color: #062c33;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  btn btn-primary" href="Galeria.html" style="background-color: #062c33;">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a  class="nav-link  btn btn-primary" href="ContatoAcervo.html" style="background-color: #062c33;">Contato</a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <div>
+                    <p>
+
+
+                    </p>
+
+                </div>
+
+                <div class="col-lg-6 offset-lg-3 offset-md-2 col-md-8" style="background-color: #ffffff;" >
+                    <form id="form_12251" data-form-type="blocs-form" novalidate >
+                        <div class="form-group">
+                            <label>
+                                Nome
+                            </label>
+                            <input id="name" class="form-control" required placeholder="Informe o seu nome completo" data-validation-required-message="Este campo deve ser preenchido." />
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                email
+                            </label>
+                            <input id="email" class="form-control" type="email" required placeholder="Informe o seu email" data-validation-required-message="Este campo deve ser preenchido." data-error-validation-msg="Entre com email válido." />
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                Mensagem (250 caracteres)
+                            </label><textarea id="message" class="form-control" rows="10" cols="50" required maxlength="250" data-validation-required-message="Favor preencher o campo Mensagem antes de enviá-lo." placeholder="Inserir com as  informações da imagem a ser enviada, como autor, data, local, etc."></textarea>
+                        </div> 
+
+                        <div class="container">
+                            <div class="col-md-6">
+                                <div class="form-group">
+
+                                    <div class="input-group">
+                                        <span class="input-group-btn">
+                                            <span class="btn btn-default btn-file">
+                                                <input type="file" id="imgInp">
+                                            </span>
+                                        </span>
+
+                                    </div>
+                                    <img id='img-upload'/>
+                                </div>
+                            </div>
+
+                        </div  >
+                        <button class="bloc-button btn btn-d btn-lg btn-block btn-style"  href="jonassilva3570@gmail.com" type="submit" style="background-color: #b3b7bb;" >
+                            Enviar
+                        </button>
+
+                    </form>
+
+                    <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1', this)"><span class="fa fa-chevron-up"></span></a>
+
+                    <div id="page-loading-blocs-notifaction" class="page-preloader"></div>
+
+                </div>
+
+
+
+            </hgroup>
+
+        </header>
+
+        <footer>
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-12 segmente-one">
+
+                            <h2>Acervo IFMT</h2>
+                            <p>Este projeto foi criado pelos Discentes do Curso de Tecnologia de Sistemas para Internet do Instituto Federal de Educação,
+                                Ciência e Tecnologia de Mato Grosso, com o intuito de dinfundir a Historia do instituto (IFMT)</p>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 segmente-two">
+                            <h4>Links Uteis</h4>
+                            <ul>
+                                <li><a href="#">Eventos</a></li>
+                                <li><a href="#">Suporte</a></li>
+                                <li><a href="#">Hosting</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 segmente-three">
+                            <h4>Siga-nos</h4>
+                            <p>Por favor sigam nas redes sociais para se manter atualizados</p>
+                            <div class=""    >
+                                <ul>
+                                    <li class="list-inline-item"> <a class="nav-link logo" href="https://www.facebook.com/dalva.mendes.18" target="_blank">
+                                            <img width="50px" height="50px" src="logoFacebook.png">
+                                        </a></li>
+                                    <li  class="list-inline-item" >  <a class="nav-link logo" href="https://www.instagram.com/dalva_mendes/" target="_blank">
+                                            <img width="50px" height="50px" src="logoInsta.png">
+                                        </a></li>
+                                    <li  class="list-inline-item">    <a class="nav-link logo" href="https://www.linkedin.com/in/dalva-mendes-0b197435/"
+                                                                         target="_blank">
+                                            <img width="50px" height="50px" src="logoLinked.png">
+                                        </a></li>
+                                    <li  class="list-inline-item">    <a class="nav-link logo" href="https://twitter.com/home?lang=pt"
+                                                                         target="_blank">
+                                            <img width="50px" height="50px" src="logotwitter.png">
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 segmente-four">
+                            <h4>Inscreva-se</h4>
+                            <p>Deixe seu email para se manter atualizado das novidades do acervo.</p>
+                            <form action="">
+                                <input type="email">
+                                <input type="submit" value="Enviar">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>                        
+        </footer>
+
+    </body>
+
+
+
+</html>
+
